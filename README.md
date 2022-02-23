@@ -2,7 +2,7 @@
 
 # Os objetos salvos no banco podem ser encontrados no arquivo: DesafioNekiApplication.java 
 
-#Endpoints:
+# Endpoints:
 
 ### `login`
 URL: http://localhost:8081/api/login
@@ -78,4 +78,4 @@ Authorization: Bearer token
     "knowledgeLevel": 5
 }
 
-#O método PUT só permite editar o atributo knowledgeLevel, por isso somente este campo é necessário no corpo da requisição.
+### O método PUT só permite editar o atributo knowledgeLevel, por isso somente este campo é necessário no corpo da requisição.
