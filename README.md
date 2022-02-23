@@ -14,14 +14,18 @@ URL: http://localhost:8081/api/login
 ### `GET client`
 URL: localhost:8081/clients/id
 Headers:
+
 Content-Type: application/json
+
 Authorization: Bearer token
 
 ### `POST client`
 URL: URL: localhost:8081/clients/
 ## Corpo da Requisição
 Headers:
+
 Content-Type: application/json
+
 Authorization: Bearer token
 {
     "login" : "teste@teste.com",
@@ -52,7 +56,9 @@ Authorization: Bearer token
 URL: http://localhost:8081/client-skills/
 ## Corpo da Requisição
 Headers:
+
 Content-Type: application/json
+
 Authorization: Bearer token
 {
     "idClient": 1,
@@ -64,7 +70,9 @@ Authorization: Bearer token
 URL: http://localhost:8081/client-skills/id
 ## Corpo da Requisição
 Headers:
+
 Content-Type: application/json
+
 Authorization: Bearer token
 {
     "knowledgeLevel": 5
