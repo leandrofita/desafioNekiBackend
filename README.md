@@ -42,7 +42,9 @@ Authorization: Bearer token
 URL: http://localhost:8081/client-skills/id (por id)
 ## Corpo da Requisição
 Headers:
+
 Content-Type: application/json
+
 Authorization: Bearer token
 {clientSkillId}
 
