@@ -13,7 +13,8 @@ URL: http://localhost:8081/api/login
 }
 ### `GET client`
 
-URL: localhost:8081/clients/id
+URL: http://localhost:8081/clients/id
+
 Headers:
 
 Content-Type: application/json
@@ -22,7 +23,7 @@ Authorization: Bearer token
 
 ### `POST client`
 
-URL: localhost:8081/clients/
+URL: http://localhost:8081/clients/
 ## Corpo da Requisição
 Headers:
 
